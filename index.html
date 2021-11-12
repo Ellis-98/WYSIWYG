@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Début du head -->
+<head>
+
+    <!-- Les Meta Tags -->
+    <meta charset="utf-8">
+    <meta content="no" name="msapplication-tap-highlight"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <!-- Partage Facebook -->
+    <meta content="website" property="og:type">
+    <meta content="WYSIWYG | Web@cadémie" property="og:title">
+    <meta content="index.html" property="og:url">
+    <meta content="#" property="og:image">
+    <meta content="Page du Wysiwyg." property="og:description">
+
+    <!-- Partage Twitter -->
+    <meta content="summary" name="twitter:card">
+    <meta content="WYSIWYG | Web@cadémie" name="twitter:title">
+    <meta content="Page du Wysiwyg." name="twitter:description">
+    <meta content="#" name="twitter:image:src">
+
+    <!-- Nom de la page + Logo Lien -->
+    <title>WYSIWYG | Web@cadémie</title>
+    <link href="#" rel="image_src" type="image/jpeg">
+
+    <!-- Début des liens vers les feuilles CSS -->
+    <link href="https://fonts.gstatic.com" media="all" rel="preconnect" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" media="all"
+          rel="stylesheet" type="text/css"/>
+    <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css"/>
+
+    <!-- Favicon (icone site aperçu)  -->
+    <link href="assets/favicon/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="assets/favicon/favicon.png" rel="icon" type="image/png">
+    <link href="assets/favicon/favicon-32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="assets/favicon/favicon-64.png" rel="icon" sizes="64x64" type="image/png">
+    <link href="assets/favicon/favicon-96.png" rel="icon" sizes="96x96" type="image/png">
+    <link href="assets/favicon/favicon-196.png" rel="icon" sizes="196x196" type="image/png">
+    <link href="assets/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="assets/favicon/apple-touch-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+    <link href="assets/favicon/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="assets/favicon/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="assets/favicon/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="assets/favicon/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+    <meta content="assets/favicon/favicon-144.png" name="msapplication-TileImage">
+    <meta content="#FFFFFF" name="msapplication-TileColor">
+
+    <!-- Début des scripts JS -->
+    <script src="assets/scripts/jquery-3.5.1.js"></script>
+    <script src="assets/scripts/jquery-mywysiwyg.js"></script>
+    <script>
+        $(function () {
+            $('#textarea').myWysiwyg({
+                buttons: ["bold", "italic", "strike through", "fore color", "font size", "link", "outdent", "indent", "justify left", "justify right", "justify center", "justify full", "source code", "save"]
+            })
+        })
+    </script>
+    <!-- Fin des scripts JS -->
+
+    <!-- Fin du head -->
+</head>
+
+<!-- Début du body -->
+<body>
+
+<!-- Début de la nav-bar -->
+<main>
+    <section class="glass">
+
+        <div class="dashboard">
+
+            <div class="user">
+                <img alt="" src="assets/images/avatar.png"/>
+                <h3>Les flibustiers</h3>
+                <p>Web@cadémie</p>
+            </div>
+        </div>
+        <!-- Fin de la nav-bar -->
+
+        <!-- Début du contenu -->
+        <div class="tasks">
+            <div style="text-align: center"><h1>My_Wysiwyg :</h1></div>
+            <div class="cards">
+                <div class="card">
+                    <div id="textarea"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<div class="circle1"></div>
+<div class="circle2"></div>
+<!-- Fin du contenu -->
+</body>
+</html>
